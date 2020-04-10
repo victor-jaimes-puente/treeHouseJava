@@ -9,13 +9,19 @@ public class TreeStory {
 //        String firstName = scanner.nextLine();
 //        System.out.printf("%s is learning Java", firstName);
         System.out.println();
-        System.out.println("Enter a noun");
+        System.out.println("Enter a noun ");
         String noun = scanner.nextLine();
         System.out.println();
-        System.out.println("Enter an adjective");
+        System.out.println("Enter an adjective ");
         String adjective = scanner.nextLine();
+        System.out.println();
+        System.out.println("Enter a verb ");
+        String verb = scanner.nextLine();
+        System.out.println();
+        System.out.println("Enter an adverb ");
+        String adverb = scanner.nextLine();
 
-        System.out.printf("A %s %s", adjective, noun);
+        System.out.printf("A %s %s was %s %s today.", adjective,noun,verb,adverb);
 
     }
 
