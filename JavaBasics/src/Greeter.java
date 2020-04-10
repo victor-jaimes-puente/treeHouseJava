@@ -9,7 +9,7 @@ public class Greeter {
 
         // TODO:  3. Print out to the console "Hello <FIRST_NAME>!  Welcome to <PLACE>."
 
-        String place = "Walmart";
+        String place = "My Kingdom";
 
         System.out.println("What is your first name? ");
         String firstName = sc.nextLine();
