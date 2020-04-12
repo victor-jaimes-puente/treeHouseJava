@@ -20,8 +20,16 @@ public class TreeStory {
 //        System.out.println();
 //        System.out.println("Enter an adverb ");
 //        String adverb = scanner.nextLine();
-//
+////
 //        System.out.printf("A %s %s was %s %s today.", adjective,noun,verb,adverb);
+
+        //
+        //
+        //
+
+
+
+
         System.out.println("What is your age?");
         int age = scanner.nextInt();
 
@@ -31,6 +39,7 @@ public class TreeStory {
             System.out.println("Must me atleast 13 to use this program!");
             System.exit(0);
         }
+
 
     }
 
